@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Générateur de citations de la série Mr.Robot</h1>
+    <div class="citations">
+        <div id="citation-gauche">
+            <h2 class="titres">Mr.Robot</h2>
+            <div class="champ carre carre-noir">
+                <label for="nombre">Entrez un chiffre entre 1 et 5 :</label>
+                <input type="text" name="nombre" id="nombre">
+                <span class="shake" id="erreur"></span>
+                <button id="bouton" class="btn-color" type="button">Créer</button>
+                <div class="citation-texte" id="citation-para"></div>
+            </div>
+        </div>
+        <div id="citation-droite">
+            <h2 class="titres">Elliot Alderson</h2>
+            <div class="champ carre">
+                <label for="nombre">Entrez un chiffre entre 1 et 5 :</label>
+                <input type="text" name="nombre" id="nombre1">
+                <span id="erreur1"></span>
+                <button id="bouton2" type="button">Créer</button>
+                <div class="citation-texte" id="para-citation"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
